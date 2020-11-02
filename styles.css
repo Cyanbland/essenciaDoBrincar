@@ -208,3 +208,56 @@ body {
         margin: 0;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .header-container {
+
+    }
+
+    #logo-img {
+        width: 95%;
+    }
+
+    .orange-box {
+        width: 95%;
+    }
+
+    .escola {
+        flex-basis: 33%;
+    }
+
+    .escola h1 {
+        font-size: 30px;
+    }
+
+    #navbar ul{
+      flex-basis: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .green-boxes-1 {
+        flex-wrap: wrap;
+    }
+
+    .infraestrutura {
+        width: 100%;
+    }
+
+    .infraestrutura h1 {
+        font-size: 30;
+        margin-left: 35px;
+    }
+
+
+    #img2 {
+        margin: 0;
+        width: 100%;
+    }
+
+    #img3 {
+        margin: 0;
+        width: 100%;
+    }
+  }
