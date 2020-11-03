@@ -214,6 +214,10 @@ body {
       align-items: center;
     }
 
+    .orange-box {
+        flex-direction: column;
+    }
+
     .green-boxes-1 {
         flex-wrap: wrap;
     }
@@ -228,11 +232,13 @@ body {
     
     .escola {
         flex-basis: 5%;
+        margin-top: 10px;
     }
 
     #paragraphs {
         text-align: center;
-        margin-right: 0px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     #img2 {
@@ -265,15 +271,18 @@ body {
 
     .orange-box {
         width: 95%;
+        flex-direction: column;
     }
 
     .escola {
+        margin-top: 10px;
         flex-basis: 5%;
     }
 
     #paragraphs {
         text-align: center;
-        margin-right: 0px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .escola h1 {
