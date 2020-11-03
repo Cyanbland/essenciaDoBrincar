@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
-
+html {
+    scroll-behavior: smooth !important;
+}
 
 .header-container {
 	display: flex;
@@ -16,8 +18,6 @@
     align-items: center;
 
 }
-
-
 
 
 body {
@@ -81,22 +81,6 @@ body {
 
 }
 
-/*
-.orange-box {
-    display: flex;
-    width: 75%;
-    background-color: #F1871A;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding: 50px, 25px;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-
-    
-}
-*/
-
 .escola {
     flex-basis: 50%;
     align-items: center;
@@ -155,7 +139,7 @@ body {
     width: 465px;
     height: 465px;
     margin-left: 55px;
-    margin-top: 200px;
+    margin-top: 185px;
 
 }
 
@@ -170,15 +154,58 @@ body {
 #img3 {
     margin-right: 238px;
     margin-left: 10px;
-
     width: 90%;
+}
+
+.green-boxes-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 75%;
+    justify-content: center;
+    margin-top: 75px;
+    margin-top: 0.5%;
+}
+
+.a-escola, .elementos {
+    background-color: #29AC84;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+    width: 470px;
+    height: 470px;
+}
+
+.elementos {
+    margin-right: 0px;
+    margin-left: 10px;
+    padding-left: 0px;
 
 }
 
-@media screen and (max-width: 992px) {
-    .header-container {
+.a-escola p, .elementos p {
+    text-decoration: none;
+    font-size: 22;
+    font-weight: 500;
+    line-height: 1.4em;
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 350px;
+    height: 390px;
+}
 
-    }
+.elementos p {
+    margin-top: 120px;
+}
+
+#img4 {
+    flex-basis: 33%;
+}
+
+@media screen and (max-width: 992px) {
 
     #navbar ul{
       flex-basis: 100%;
@@ -198,7 +225,15 @@ body {
     .infraestrutura h1 {
         margin-left: 35px;
     }
+    
+    .escola {
+        flex-basis: 5%;
+    }
 
+    #paragraphs {
+        text-align: center;
+        margin-right: 0px;
+    }
 
     #img2 {
         margin: 0;
@@ -207,11 +242,21 @@ body {
     #img3 {
         margin: 0;
     }
+
+    .green-boxes-2 {
+        flex-wrap: wrap;
+    }
+
+    .elementos, .a-escola {
+        margin: 0px;
+    }
+
+
   }
 
   @media screen and (max-width: 600px) {
-    .header-container {
-
+    #navbar a {
+        word-break: none;
     }
 
     #logo-img {
@@ -223,7 +268,12 @@ body {
     }
 
     .escola {
-        flex-basis: 33%;
+        flex-basis: 5%;
+    }
+
+    #paragraphs {
+        text-align: center;
+        margin-right: 0px;
     }
 
     .escola h1 {
@@ -247,7 +297,7 @@ body {
 
     .infraestrutura h1 {
         font-size: 30;
-        margin-left: 35px;
+        margin-left: 70px;
     }
 
 
@@ -259,5 +309,13 @@ body {
     #img3 {
         margin: 0;
         width: 100%;
+    }
+
+    .green-boxes-2 {
+        flex-wrap: wrap;
+    }
+
+    .elementos, .a-escola {
+        margin: 0px;
     }
   }
