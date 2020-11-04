@@ -232,13 +232,24 @@ body {
     }
 
     #img2, #img3 {
-        margin: 0;
+        margin-left: 0px;
+        margin-right: 0px;
         border-radius: 0px;
     }
 
     .elementos, .a-escola {
         margin: 0px;
         border-radius: 0px;
+    }
+
+    .infraestrutura {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .elementos, .infraestrutura, .a-escola, #img2, #img3, #img4 {
+        margin-bottom: 30px;
+        border-radius: 30px;
     }
 
 
@@ -287,5 +298,15 @@ body {
     .elementos, .a-escola {
         margin: 0px;
         border-radius: 0px;
+    }
+
+    #img2, #img3, #img4 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .elementos, .infraestrutura, .a-escola, #img2, #img3, #img4 {
+        margin-bottom: 30px;
+        border-radius: 30px;
     }
   }
