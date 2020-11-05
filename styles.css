@@ -45,6 +45,8 @@ body {
     padding: 0;
     list-style: none;
     text-align: center;
+    flex-basis: 100%;
+    justify-content: center;
     
 }
 
@@ -52,6 +54,7 @@ body {
     padding: 10px;
     align-content: center;
     text-align: center;
+    margin: 12px;
     
 }
 
@@ -61,7 +64,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    padding-right:15px;
+    padding-right:0px;
     word-wrap: break-word;
 
 }
@@ -269,11 +272,26 @@ body {
 
 @media screen and (max-width: 992px) {
 
-    #navbar ul{
+    #navbar ul {
       flex-basis: 100%;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    #navbar li {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 25px;
+        padding-right: 0px;
+    }
+
+    #navbar a {
+
+    }
+
+    #navbar li:last-child {
+        border-bottom: 0px;
+        padding-bottom: 0px;
     }
 
     .orange-box {
