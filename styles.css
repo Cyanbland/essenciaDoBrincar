@@ -80,6 +80,9 @@ body {
     width: 75%;
     align-items: center;
     justify-content: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
 
 }
 
@@ -275,6 +278,8 @@ body {
 
     .orange-box {
         flex-direction: column;
+        margin-top: 10px;
+        border-radius: 30px;
     }
 
     .green-boxes-1, .green-boxes-2 {
