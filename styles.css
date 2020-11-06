@@ -228,21 +228,21 @@ body {
 
 }
 
-.box-musicalizacao {
+.box-musicalizacao, .box-bem-estar, .box-criar-e-transformar, .box-clube-da-historia {
     display: flex;
     align-items: center;
 }
 
-#musicalizacao {
+#musicalizacao, #bem-estar, #criar-e-transformar, #clube-da-historia {
     background-color: #F1871A;
     flex-basis: 50%;
     padding: 2% 20% 3% 4%;
     border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px; 
     
 }
 
-#musicalizacao h1 {
+#musicalizacao h1, #bem-estar h1, #criar-e-transformar h1, #clube-da-historia h1 {
     text-decoration: none;
     font-size: 50;
     font-weight: bold;
@@ -250,21 +250,77 @@ body {
     color: #fff;
 }
 
-#musicalizacao p {
+#musicalizacao p, #bem-estar p, #criar-e-transformar p, #clube-da-historia p {
     text-decoration: none;
     font-size: 20;
     font-weight: 400;
     line-height: 1.4em;
     color: #fff;
+    width: 100%;
+}
+
+#musicalizacao p {
     width: 125%;
 }
 
-
-
-#img5 {
+#img5, #img7{
     position: relative;
     right: 4.4%;
     width: 55%;
+}
+
+#bem-estar, #clube-da-historia {
+    order: 2;
+    border-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 1% 4% 1% 15%;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    right: 8%;
+}
+
+#bem-estar, #criar-e-transformar, #clube-da-historia {
+    margin-top: 30px;
+}
+
+#bem-estar p {
+    font-size: 18px;
+}
+
+#clube-da-historia p {
+    font-size: 20px;
+}
+
+#bem-estar h1, #clube-da-historia h1 {
+    margin: 0px;
+}
+
+#img6, #img8 {
+    position: relative;
+    order: 1;
+    width: 55%;
+    margin-top: 30px;
+}
+
+#clube-da-historia {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#criar-e-transformar {
+    padding-top: 0%;
+    padding-bottom: 1%;
+}
+
+#criar-e-transformar h1 {
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+#criar-e-transformar p {
+    width: 125%;
 }
 
 
@@ -283,10 +339,6 @@ body {
         border-bottom: 1px solid #fff;
         padding-bottom: 25px;
         padding-right: 0px;
-    }
-
-    #navbar a {
-
     }
 
     #navbar li:last-child {
@@ -336,30 +388,47 @@ body {
         border-radius: 30px;
     }
 
-    .box-musicalizacao {
+    .box-musicalizacao, .box-bem-estar, .box-criar-e-transformar, .box-clube-da-historia {
         flex-direction: column;
     }
     
+    #atividades-titulo {
+        margin-bottom: 30px;
+    }
+
     #atividades-titulo h1 {
         text-align: center;
     }
     
-    #musicalizacao {
+    #musicalizacao, #bem-estar, #criar-e-transformar, #clube-da-historia {
         padding: 10px;
         border-radius: 30px;
         text-align: center;
     }
 
-    #img5 {
+    #img5, #img6, #img7, #img8 {
         width: 100%;
         margin: 10px 0 0 0;
         position: relative;
         right: 0;
     }
 
-    #musicalizacao p {
+    #musicalizacao p, #criar-e-transformar p {
         width: 100%;
     }
+
+    #bem-estar, #clube-da-historia {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: 0%;
+    }
+
+    #img6, #img8 {
+        order: 2;
+    }
+
 
 
   }
