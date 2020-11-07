@@ -240,8 +240,7 @@ body {
     padding: 2% 20% 3% 4%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px; 
-    text-align: justify;
-    
+    text-align: justify; 
 }
 
 #musicalizacao h1, #bem-estar h1, #criar-e-transformar h1, #clube-da-historia h1 {
@@ -250,6 +249,7 @@ body {
     font-weight: bold;
     line-height: 1.4em;
     color: #fff;
+    text-align: center;
 }
 
 #musicalizacao p, #bem-estar p, #criar-e-transformar p, #clube-da-historia p {
