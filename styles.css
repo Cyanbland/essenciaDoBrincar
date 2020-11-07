@@ -113,6 +113,7 @@ body {
     font-size: 18px;
     line-height: 1.4em;
     color: #fff;
+    text-align: justify;
 }
 
 #paragraphs {
@@ -174,7 +175,7 @@ body {
     background-color: #29AC84;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     margin-right: 10px;
     width: 470px;
     height: 470px;
@@ -239,6 +240,7 @@ body {
     padding: 2% 20% 3% 4%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px; 
+    text-align: justify;
     
 }
 
@@ -339,6 +341,7 @@ body {
     width: 70%;
     position: relative;
     bottom: 20%;
+    padding-left: 15%;
 }
 
 .box-informacoes h3 {
@@ -350,13 +353,14 @@ body {
     width: 100%;
     position: relative;
     bottom: 20%;
+    text-align: center;
 }
 
 .box-informacoes p {
     text-decoration: none;
     font-size: 20;
     font-weight: 400;
-    line-height: 1.4em;
+    line-height: 1.6em;
     color: #fff;
     width: 100%;
     position: relative;
@@ -370,7 +374,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -506,6 +510,10 @@ body {
 
     #img6, #img8 {
         order: 2;
+    }
+
+    #clube-da-historia, #img8 {
+        margin-bottom: 0;
     }
 
     .box-informacoes {
