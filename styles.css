@@ -431,7 +431,6 @@ body {
     margin-left: 5%;
 }
 
-
 .contatos a:hover {
     text-decoration: underline;
 }
@@ -443,14 +442,10 @@ body {
 }
 
 
-
-
-
-
 #img-fim {
     margin-top: 150px;
+    width: 100%;
 }
-
 
 a.anchor {
     display: block;
