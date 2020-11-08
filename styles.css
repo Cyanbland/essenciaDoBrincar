@@ -414,7 +414,7 @@ body {
 .contatos {
     display: flex;
     flex-direction: column;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .contatos img {
@@ -544,7 +544,7 @@ a.anchor-contato {
     #musicalizacao, #bem-estar, #criar-e-transformar, #clube-da-historia {
         padding: 10px;
         border-radius: 30px;
-        text-align: center;
+        text-align: justify;
     }
 
     #img5, #img6, #img7, #img8 {
@@ -577,6 +577,7 @@ a.anchor-contato {
     .box-informacoes {
         flex-direction: column;
         height: auto;
+        align-items: center;
     }
 
     #alimentacao, #seguranca {
@@ -595,6 +596,23 @@ a.anchor-contato {
 
     #alimentacao , #biometria {
         padding-bottom: 100px;
+    }
+
+    .box-contato {
+        flex-direction: column;
+        margin: 15%;
+    }
+
+    .contatos {
+        margin-left: 0;
+    }
+
+    .contatos h3, .contatos a {
+        font-size: 18;
+    }
+
+    .box-contato h1 {
+        margin: 0 0 5% 0;
     }
 
 
@@ -661,5 +679,14 @@ a.anchor-contato {
     
     #atividades-titulo h1 {
         text-align: center;
+    }
+
+    .contatos h3, .contatos a {
+        font-size: 14;
+
+    }
+
+    .box-informacoes {
+        align-items: center;
     }
   }
