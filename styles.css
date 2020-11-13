@@ -146,13 +146,13 @@ body {
 
 .infraestrutura h1 {
     text-decoration: none;
-    font-size: 50;
+    font-size: 40;
     font-weight: 700;
     line-height: 1.4em;
     color: #fff;
-    margin-top: 185px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 195px;
+    margin-left: 45px;
+    margin-right: 45px;
     width: 350px;
     height: 390px;
 }
@@ -231,12 +231,12 @@ body {
 
 }
 
-.box-musicalizacao, .box-bem-estar, .box-criar-e-transformar, .box-clube-da-historia {
+.box-danca, .box-bem-estar, .box-criar-e-transformar, .box-clube-da-historia, .box-corpo {
     display: flex;
     align-items: center;
 }
 
-#musicalizacao, #bem-estar, #criar-e-transformar, #clube-da-historia {
+#danca, #bem-estar, #criar-e-transformar, #clube-da-historia, #corpo {
     background-color: #F1871A;
     flex-basis: 50%;
     padding: 2% 20% 3% 4%;
@@ -245,7 +245,7 @@ body {
     text-align: justify; 
 }
 
-#musicalizacao h1, #bem-estar h1, #criar-e-transformar h1, #clube-da-historia h1 {
+#danca h1, #bem-estar h1, #criar-e-transformar h1, #clube-da-historia h1, #corpo h1 {
     text-decoration: none;
     font-size: 50;
     font-weight: bold;
@@ -254,7 +254,7 @@ body {
     text-align: center;
 }
 
-#musicalizacao p, #bem-estar p, #criar-e-transformar p, #clube-da-historia p {
+#danca p, #bem-estar p, #criar-e-transformar p, #clube-da-historia p, #corpo p {
     text-decoration: none;
     font-size: 20;
     font-weight: 400;
@@ -263,11 +263,11 @@ body {
     width: 100%;
 }
 
-#musicalizacao p {
+#danca p {
     width: 125%;
 }
 
-#img5, #img7{
+#img5, #img7, #img9{
     position: relative;
     right: 4.4%;
     width: 55%;
@@ -327,7 +327,7 @@ body {
     width: 125%;
 }
 
-#clube-da-historia, #img8 {
+#corpo, #img9 {
     margin-bottom: 150px;
 }
 
@@ -529,7 +529,7 @@ a.anchor-contato {
         border-radius: 30px;
     }
 
-    .box-musicalizacao, .box-bem-estar, .box-criar-e-transformar, .box-clube-da-historia {
+    .box-danca, .box-bem-estar, .box-criar-e-transformar, .box-clube-da-historia, .box-corpo {
         flex-direction: column;
     }
     
@@ -541,20 +541,20 @@ a.anchor-contato {
         text-align: center;
     }
     
-    #musicalizacao, #bem-estar, #criar-e-transformar, #clube-da-historia {
+    #danca, #bem-estar, #criar-e-transformar, #clube-da-historia, #corpo {
         padding: 10px;
         border-radius: 30px;
         text-align: justify;
     }
 
-    #img5, #img6, #img7, #img8 {
+    #img5, #img6, #img7, #img8, #img9 {
         width: 100%;
         margin: 10px 0 0 0;
         position: relative;
         right: 0;
     }
 
-    #musicalizacao p, #criar-e-transformar p {
+    #danca p, #criar-e-transformar p {
         width: 100%;
     }
 
@@ -570,7 +570,7 @@ a.anchor-contato {
         order: 2;
     }
 
-    #clube-da-historia, #img8 {
+    #corpo, #img9 {
         margin-bottom: 0;
     }
 
@@ -677,7 +677,7 @@ a.anchor-contato {
         border-radius: 30px;
     }
 
-    .box-musicalizacao {
+    .box-danca {
         flex-direction: column;
     }
     
