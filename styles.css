@@ -15,6 +15,10 @@ body {
 	margin:0;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 
 
 .header-container {
@@ -76,7 +80,37 @@ body {
 }
 
 #logo-img {
+    width: 100%;
+    opacity: 00%;
+
+}
+
+.gallery {
     width: 75%;
+    background-repeat: no-repeat;
+    animation: fade 30s cubic-bezier(1, 0, 0, 1) infinite;
+
+}
+
+
+
+@keyframes fade {
+    0% {
+        background: url(assets/2noBG.png);
+        background-size: cover;
+    }
+    25% {
+        background: url(assets/3noBG.png);
+        background-size: cover;
+    }
+    50% {
+        background: url(assets/4noBG.png);
+        background-size: cover;
+    }
+    100% {
+        background: url(assets/1noBG.png);
+        background-size: cover;
+    }
 }
 
 .orange-box {
@@ -496,6 +530,10 @@ a.anchor-contato {
 
     .green-boxes-1, .green-boxes-2 {
         flex-wrap: wrap;
+    }
+
+    .gallery {
+        width: 100%;
     }
     
     .escola {
