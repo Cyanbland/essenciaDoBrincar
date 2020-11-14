@@ -247,7 +247,7 @@ body {
 
 #danca h1, #bem-estar h1, #criar-e-transformar h1, #clube-da-historia h1, #corpo h1 {
     text-decoration: none;
-    font-size: 50;
+    font-size: 40;
     font-weight: bold;
     line-height: 1.4em;
     color: #fff;
@@ -445,6 +445,11 @@ body {
 #img-fim {
     margin-top: 150px;
     width: 100%;
+}
+
+#img9 {
+    width: 40%;
+    border-radius: 30px;
 }
 
 a.anchor {
