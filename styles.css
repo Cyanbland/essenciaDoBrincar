@@ -88,7 +88,7 @@ a:hover {
 .gallery {
     width: 75%;
     background-repeat: no-repeat;
-    animation: fade 30s cubic-bezier(1, 0, 0, 1) infinite;
+    animation: fade 30s cubic-bezier(.8, 0, 0, .8) infinite;
 
 }
 
@@ -96,19 +96,43 @@ a:hover {
 
 @keyframes fade {
     0% {
-        background: url(assets/2noBG.png);
+        background: url(assets/banner-imgs/banner2.png);
+        background-size: cover; 
+    }
+    11.1% {
+        background: url(assets/banner-imgs/banner1.png);
         background-size: cover;
     }
-    25% {
-        background: url(assets/3noBG.png);
+    22.2% {
+        background: url(assets/banner-imgs/banner3.png);
         background-size: cover;
     }
-    50% {
-        background: url(assets/4noBG.png);
+    33.3% {
+        background: url(assets/banner-imgs/banner4.png);
+        background-size: cover;
+    }
+    44.4% {
+        background: url(assets/banner-imgs/banner5.png);
+        background-size: cover;
+    }
+    55.5% {
+        background: url(assets/banner-imgs/banner6.png);
+        background-size: cover;
+    }
+    66.6% {
+        background: url(assets/banner-imgs/banner7.png);
+        background-size: cover;
+    }
+    77.7% {
+        background: url(assets/banner-imgs/banner8.png);
+        background-size: cover;
+    }
+    88.8% {
+        background: url(assets/banner-imgs/banner9.png);
         background-size: cover;
     }
     100% {
-        background: url(assets/1noBG.png);
+        background: url(assets/banner-imgs/banner2.png);
         background-size: cover;
     }
 }
@@ -319,12 +343,16 @@ a:hover {
     right: 8%;
 }
 
-#bem-estar, #criar-e-transformar, #clube-da-historia {
-    margin-top: 30px;
+
+
+#bem-estar {
+    padding-left: 150px;
+    padding-right: 15px;
 }
 
+
 #bem-estar p {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 #clube-da-historia p {
@@ -339,12 +367,16 @@ a:hover {
     position: relative;
     order: 1;
     width: 55%;
-    margin-top: 30px;
+
 }
 
 #clube-da-historia {
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+#clube-da-historia p {
+    font-size: 18px;
 }
 
 #criar-e-transformar {
@@ -359,18 +391,29 @@ a:hover {
 
 #criar-e-transformar p {
     width: 125%;
+    font-size: 18px;
 }
 
 #corpo, #img9 {
     margin-bottom: 150px;
 }
 
+#img5, #img6, #img7, #img8, #img9 {
+    width: 40%;
+    border-radius: 30px;
+}
+
+.box-bem-estar, .box-criar-e-transformar, .box-clube-da-historia, .box-corpo {
+    margin-top: 50px;
+}
+
+
+
 .box-informacoes {
     display: flex;
     flex-direction: row;
     width: 75%;
     margin-top: 50px;
-
 }
 
 .box-informacoes img {
@@ -481,10 +524,7 @@ a:hover {
     width: 100%;
 }
 
-#img9 {
-    width: 40%;
-    border-radius: 30px;
-}
+
 
 a.anchor {
     display: block;
