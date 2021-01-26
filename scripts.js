@@ -3,8 +3,8 @@ var body = document.getElementsByTagName("BODY")[0];
 let modal = document.getElementById("modal");
 
 
-if (navigator.userAgent.search("Chrome") >= 0) {
-//if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+//if (navigator.userAgent.search("Chrome") >= 0) {
+if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
     modal.style.opacity = 1;
     modal.style.visibility = "visible";
     body.style.margin = 0;
