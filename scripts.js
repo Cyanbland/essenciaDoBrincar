@@ -1,29 +1,22 @@
-/*
-
-const imgs = new Array (
-    "assets/1noBG.png",
-    "assets/2noBG.png",
-    "assets/3noBG.png",
-    "assets/4noBG.png"
-);
-
-var i = 0;
-var len = imgs.length;
+var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+var body = document.getElementsByTagName("BODY")[0];
+let modal = document.getElementById("modal");
 
 
-
-function slider() {
-    var imgTag = document.getElementById("logo-img");
-    if (i > len - 1) {
-        i = 0;
-    }
-    imgTag.src = imgs[i];
-    i++;
-    setTimeout('slider()', 3000);
+//if (navigator.userAgent.search("Chrome") >= 0) {
+if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+    modal.style.opacity = 1;
+    modal.style.visibility = "visible";
+    body.style.margin = 0;
+    body.style.height = "100%";
+    body.style.overflow = "hidden";
 }
 
+function closeModal() {
+    modal.style.opacity = 0;
+    modal.style.visibility = "hidden";
+    body.style.height = "initial";
+    body.style.overflow = "initial";
 
-
-
-
+}
 

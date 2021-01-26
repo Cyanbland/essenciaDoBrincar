@@ -20,6 +20,7 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="assets/ms-icon-144x144.png">
 		<meta name="theme-color" content="#29AC84">
+
 		
 
 
@@ -27,6 +28,13 @@
 	</head>
 
 	<body>
+		<div class="modal" id="modal">
+			<div class="modal-box" id="modal-box">
+				<span class="close-button" id="close-button" onclick="closeModal()">X</span>
+				<h1>O seu navegador pode não funcionar conforme esperado nesse site! Nosso site é melhor visualizado através de outro navegador.</h1>
+			</div>
+		</div>
+
 		<div class="header-container">
 			<nav id="navbar">
 				<ul>
@@ -39,20 +47,11 @@
 				</ul>
 			</nav>
 		</div>
-
-
 		
 		<div class="container-1">
 			<div class="gallery">
 				<img src="assets/1noBG.png" alt="Essência do Brincar" id="logo-img" /> 
 			</div>
-
-			
-			<!--
-			 <div class="slider-box">
-				<div class="slider"></div>
-			</div>
-			-->
 
 			<div class="orange-box" id="proposta">
 				<div class="escola">
@@ -260,6 +259,6 @@
 
 		</div>
 		<img src="assets/img-fim.png" alt="" id="img-fim">
-
+		<script src="scripts.js"></script>
 	</body>
 </html>
