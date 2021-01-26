@@ -562,7 +562,6 @@ a.anchor-contato {
     width: 24rem;
     border-radius: 0.5rem; 
 
-    
 }
 
 .modal-box h1 {
@@ -573,6 +572,15 @@ a.anchor-contato {
     text-align: center;
     padding-right: 0px;
     word-wrap: break-word;
+    display: block;
+}
+
+.modal-box img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .close-button {
